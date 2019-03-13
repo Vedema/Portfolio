@@ -1,0 +1,85 @@
+
+		header {
+		text-align: center;
+			padding: 10px;
+			background-image: url("image/background2.png");
+        	background-repeat: no-repeat;
+        	background-size: cover;
+        	color: white;
+		}
+		a{
+			color: #fff;
+		}
+		h1{
+			font-size: 70px;
+		}
+		ul{
+			padding: 10px;
+			background: rgba(0,0,0,0.5);
+		}
+		li{
+			max-width: 600px; 
+			display: inline;
+			padding-left : 30px;
+			color: white;
+			margin: auto;
+		}
+		article{
+			max-width: 600px;  
+			padding: 10px;
+			margin: 0 auto;
+			/* max-width give responsive attibute */
+		}
+		button{
+        font-size: 15px;
+        margin-left: 45%;
+
+		}
+		p{
+			font-size: 18px;
+			text-align: center;
+		}
+		h2{
+			text-align: center;
+		    text-decoration: underline;
+		    text-transform: capitalize;
+		}
+		img{
+		border: 2px solid white;
+		padding: 7px 7px 7px 7px;
+		margin: 40px 0px 0px 0px;
+		border-radius: 20px;
+		max-height: 200px;
+		max-width: 200px;
+		}
+		 @media (max-width: 768px){
+		    body{
+		      background: LavenderBlush ;
+		      /* changes the bacground colour when website is small */
+		      }
+		      h1{
+		      	font-size: 50px;
+		      	margin-top: 12px;
+		      }
+		      h2{
+		      	font-size: 30px;
+
+		      }
+		      li{
+		      	display: block;
+		      	padding: 5px;
+		      	font-size: 22px;
+		      	margin-top: auto;
+		      }
+
+		      p{
+		      	font-size: 25px;
+		      	line-height: 1.4;
+		      	text-align: center;
+		      	margin-top: 3px;
+
+		  }    
+		  
+		  button{
+		  	font-size: 20px;
+ 		  }

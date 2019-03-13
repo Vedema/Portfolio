@@ -1,0 +1,138 @@
+.navbar .navbar-brand{
+	color: rgba(255, 255,255, 0.85);
+    font-size: 1rem;
+}
+
+#home{
+
+  background-image: radial-gradient(circle at bottom, #ebbea6, #5dcad1);
+  font-family: 'Lobster', cursive;
+  line-height: 1.4;
+  	/*border: 8px solid #ebbea6;*/ /* 8px Width, the style and border color*/
+	border: 8px solid #ebbea6;
+	border-radius: 15px;
+	color: #ebbea6;
+	box-shadow: inset 0px 70px 15px 0px #13292a,
+						 inset 0px -50px 15px 0px #13292a;
+}
+.highlight{
+	color: #13292a;
+}
+.jumbotron{
+	text-shadow: 0.5px 0.5px 0px #ebbea6;
+	background: #2e6467;
+}
+
+.btn{
+	border-radius: 50px 10px;
+	background: #ebbea6;
+	border-color: #13292a;
+	color: #13292a;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.btn:hover{
+    background-color: #5dcad1;
+    color: #13292a;
+}
+.row{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+}
+#projects{
+color: black;
+}
+.progress-bar {
+font-size: 18px;
+}
+.card{
+	background-image: radial-gradient(circle at top, #5dcad1, #13292a, #2e6467, #ebbea6);
+	font-family: 'Lobster', cursive;
+	color: #5dcad1;
+	background: #13292a;
+}
+.pic{
+	border: 3px dashed #2e6467;
+	/*border-style: dashed;*/
+	border-radius: 50px 10px; /* or use short-hand 50px 10px ---top-left, top-right, bottom-left, bottom-right*/
+	max-height: 230px;
+	max-width: 100%;
+	padding: 7px 7px 7px 7px;
+}
+.form-div{
+color: #5dcad1;
+background: #13292a;
+border-radius: 50px 10px;
+}
+#form-btn{
+background-color: #5dcad1;
+}
+
+#form-btn:hover{
+	background-color: #ebbea6;
+	color: #13292a;
+}
+.about {
+	color:#13292a;
+}
+
+/* .card-img-top {
+	width: 100%;
+	height: 15vw;
+	object-fit: cover; */
+}
+.pic:hover {
+  transition: all .5s;
+  transform: scale(1.2) rotate(360deg);
+  border-radius: 50%;
+}
+
+.intro {
+	color:#13292a;
+	padding-bottom: 3px;
+}
+
+#marquee{
+color:#13292a;
+font-size: 20px;
+}
+
+.copyright {
+	color:b#ebbea6;
+}
+
+.socicons-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+ .socicons-list li {
+	margin: 20px 10px 10px 10px;
+}
+  .socicons-list li a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #f1f1f1;
+	transition: all ease-in-out 150ms;
+}
+  .socicons-list li a:hover {
+  text-shadow: 0 5px 10px #13292a;
+  }
+
+  .socicons-list li:nth-child(3) a {
+	  background-color: #3e5b98;
+  }
+  .socicons-list li:nth-child(1) a {
+	  background-color: #AD5C51;
+  }
+  .socicons-list li:nth-child(2) a {
+	  background-color: #0077B5;
+  }
+  .socicons-list li:nth-child(4) a {
+	  background-color: #1DA1F2; 
+  }

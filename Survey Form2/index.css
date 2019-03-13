@@ -1,0 +1,118 @@
+
+
+body {
+  background: #a9d7d1;
+  font-family: Ariel, Helvetica, sans-serif;
+  }
+#title, #description{
+  text-align: center;
+}
+#description{
+  padding: 6px;
+  font-size: 20px;
+}
+#survey-form{ 
+  box-shadow: 0 0 300px 0;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-color: #fffaf5;
+  margin-top: 0px;
+}
+.container{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px 12px 12px 15px;
+	font-size: 18px;
+
+}
+table{
+margin-top: -40px;
+}
+#name, #email, #number{
+text-align: right;
+padding-left: 30px;
+padding-top: 6px;
+margin-left: 20px;
+margin: 20px;
+
+}
+.labels{
+	text-align: right;
+	display: block;
+    padding-left: 40px;
+    text-indent: -30px;
+	padding-top: 10px;
+	padding-right: 12px;
+	margin-bottom: 12px;
+}
+#name-label,#email-label, #number-label{
+width: 250px;
+height: 22px;
+margin-left: 50px;
+margin-top: 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown, #dropdown2{
+height: 28px;
+width: 150px;
+margin-left: 50px;
+margin-top: 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+
+}
+input[type="radio"],input[type="checkbox"], textarea{
+margin-left: 50px;
+padding: 15px 15px 15px 15px;
+line-height: 25px;
+margin-top: 12px;
+
+}
+.button{
+  text-align: center; 
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+textarea, #submit{
+	border-width: 2px;
+	border-radius: 4px;
+	}
+#submit{
+	height: 35px;
+	width: 80px;
+	background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    margin: 10px;
+    border: 0px solid;
+    font-family: Great Vibes;
+}
+
+@media screen and (max-width: 833px) {
+  #name-label,#email-label, #number-label,#textarea, {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  #dropdown, #dropdown2 {
+    width: 40%;
+    float: left;
+  }
+ #name-label,#email-label, #number-label,#textarea, {
+    width: 100%;
+  }
+  select{
+    width: 100%;
+  }
+}

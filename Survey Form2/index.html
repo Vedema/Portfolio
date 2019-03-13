@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1 id="title">My Survey Form</h1>
+	<div class="container">
+	<form id="survey-form">
+	<p id="description">Let us know how we can improve our services</p>
+    <table>
+    	<tr>
+    		<td id ="name" width="43%">*Name:</td>
+    		<td width="57%"><input autofocus id= "name-label" type="text" name="name" placeholder="Enter Your Name" required></input></td>
+    	</tr>
+    	<tr>
+    		<td id ="email">*Email:</td>
+    		<td><input id= "email-label" type="Email" name="Email" placeholder="Enter Your Email" required></input></td>
+    	</tr>
+    	<tr>
+    		<td id ="number">*Age:</td>
+    		<td><input id= "number-label"type="Number" name="Age" placeholder="Age"  min="1" max="120" required></input></td>
+    	</tr>
+    	<tr>
+    		<td class ="labels">*Which option best describes your current role?</td>
+    		<td>
+    		<select id="dropdown" name="currentPos">
+            <option disabled="" value="">Select an option</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select> 
+          </td>
+    	<tr>
+    	<td class ="labels">*How likely is that you would recommend our services to a friend?</td>
+    	<td>
+           <label for= "Definitely"><input name="radio-buttons" value="1" type="radio">Definitely</label>
+           <br>
+           <label for= "Maybe"><input name="radio-buttons" value="2" type="radio">Maybe</label>
+           <br>
+           <label for= "Not Sure"><input name="radio-buttons" value="3" type="radio">Not Sure</label> 
+    		</td>
+    	<tr>
+    	<td class ="labels">*Which option best describes your current role?</td>
+    	<td>
+    		<select id="dropdown2" name="bestservice">
+            <option disabled="" value="">Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+           </select> 
+           </td>
+    	 </tr>
+       <tr>
+       <div class="labels">
+       <td class ="labels">Things that should be improved in the future <br>(Check all that apply):</td></div>
+       <td class="checkbox">
+         <label for="Front-end Projects">
+         	<input value="1" type="checkbox" name="preference"> Front-end Projects
+         </label> 
+         <br>
+         <label for="Back-end Projects">
+         <input value="2" type="checkbox" name="preference"> Back-end Projects
+        </label> 
+        <br>
+         <label for="Data Visualization"><input value="3"  type="checkbox" name="preference"> Data Visualization</label> <br>
+         <label for="Challengess"><input value="4"  type="checkbox" name="preference"> Challenges</label> <br>
+         <label for="Open Source Community"><input value="5" type="checkbox" name="preference"> Open Source Community</label> <br>
+         <label for="Gitter help rooms"><input value="6"  type="checkbox" name="preference"> Gitter help rooms</label> <br>
+         <label for="Videos"><input value="7"  type="checkbox" name="preference"> Videos</label> <br>
+         <label for="City Meetups"><input value="8" type="checkbox" name="project"> City Meetups</label> <br>
+         <label for="Wiki"><input value="8" type="checkbox" name="project"> Wiki</label> <br>
+         <label for="Forum"><input value="8" type="checkbox" name="project"> Forum</label> <br>
+         <label for="Additional Courses"><input value="8" type="checkbox" name="project"> Additional Courses</label> 
+     </td>
+     </tr>
+     <tr>
+    	<td class="labels">
+    	Any Comments or Suggestions?</
+    	<td>
+     <td>
+     <textarea id="textarea" style="height:50px;resize:vertical; " name="comment" rows="8" cols= "30" placeholder="Enter your comment here..."></textarea>	
+    	</td>
+    	</tr>
+    </table>
+    <div class="button">
+    	<button id="submit"> Submit </button> 
+    	</div>
+	</form>
+</div>
+</body>
+</html>
