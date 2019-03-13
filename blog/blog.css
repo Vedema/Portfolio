@@ -1,8 +1,8 @@
 
-		header {
+		#header {
 		text-align: center;
 			padding: 10px;
-			background-image: url("image/background2.png");
+			background-image: url("Image/background2.jpg");
         	background-repeat: no-repeat;
         	background-size: cover;
         	color: white;
