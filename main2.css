@@ -15,7 +15,7 @@
 	box-shadow: inset 0px 70px 15px 0px #13292a,
 						 inset 0px -50px 15px 0px #13292a;
 }
-.highlight{
+.highlight {
 	color: #13292a;
 }
 .jumbotron{
@@ -52,13 +52,19 @@ font-size: 18px;
 	color: #5dcad1;
 	background: #13292a;
 }
-.pic{
+#pic{
 	border: 3px dashed #2e6467;
 	/*border-style: dashed;*/
 	border-radius: 50px 10px; /* or use short-hand 50px 10px ---top-left, top-right, bottom-left, bottom-right*/
 	max-height: 230px;
 	max-width: 100%;
 	padding: 7px 7px 7px 7px;
+}
+
+#pic:hover {
+  transition: all .5s;
+  transform: scale(1.2) rotate(360deg);
+  border-radius: 50%;
 }
 .form-div{
 color: #5dcad1;
@@ -81,11 +87,6 @@ background-color: #5dcad1;
 	width: 100%;
 	height: 15vw;
 	object-fit: cover; */
-}
-#pic:hover {
-  transition: all .5s;
-  transform: scale(1.2) rotate(360deg);
-  border-radius: 50%;
 }
 
 .intro {
