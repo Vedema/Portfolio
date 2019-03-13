@@ -52,7 +52,7 @@ font-size: 18px;
 	color: #5dcad1;
 	background: #13292a;
 }
-#pic{
+.pic{
 	border: 3px dashed #2e6467;
 	/*border-style: dashed;*/
 	border-radius: 50px 10px; /* or use short-hand 50px 10px ---top-left, top-right, bottom-left, bottom-right*/
@@ -61,7 +61,7 @@ font-size: 18px;
 	padding: 7px 7px 7px 7px;
 }
 
-#pic:hover {
+.pic:hover {
   transition: all .5s;
   transform: scale(1.2) rotate(360deg);
   border-radius: 50%;
