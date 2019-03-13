@@ -82,7 +82,7 @@ background-color: #5dcad1;
 	height: 15vw;
 	object-fit: cover; */
 }
-.pic:hover {
+#pic:hover {
   transition: all .5s;
   transform: scale(1.2) rotate(360deg);
   border-radius: 50%;
