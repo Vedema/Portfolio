@@ -11,7 +11,7 @@
   	/*border: 8px solid #ebbea6;*/ /* 8px Width, the style and border color*/
 	border: 8px solid #ebbea6;
 	border-radius: 15px;
-	color: #ebbea6;
+	/* color: #ebbea6; */
 	box-shadow: inset 0px 70px 15px 0px #13292a,
 						 inset 0px -50px 15px 0px #13292a;
 }
@@ -60,12 +60,6 @@ font-size: 18px;
 	max-width: 100%;
 	padding: 7px 7px 7px 7px;
 }
-
-.pic:hover {
-  transition: all .5s;
-  transform: scale(1.2) rotate(360deg);
-  border-radius: 50%;
-}
 .form-div{
 color: #5dcad1;
 background: #13292a;
@@ -89,11 +83,16 @@ background-color: #5dcad1;
 	object-fit: cover; */
 }
 
-.intro {
+#intro {
 	color:#13292a;
 	padding-bottom: 3px;
 }
 
+.pic:hover {
+  transition: all .5s;
+  transform: scale(1.2) rotate(360deg);
+  border-radius: 50%;
+}
 #marquee{
 color:#13292a;
 font-size: 20px;
