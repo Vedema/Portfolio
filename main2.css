@@ -158,3 +158,9 @@ font-size: 20px;
   .socicons-list li:nth-child(4) a {
 	  background-color: #1DA1F2; 
   }
+
+	/* Toggle classList used for JavaScript below */
+	.isBlack {
+	 background: black;
+	 color: pink;
+	}
