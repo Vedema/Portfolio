@@ -8,3 +8,13 @@ $("button").on("click", function() {
 // function() contains the thing to be done when the event 'click' happens.
 //alert("clicked!") when this event happens, it pops up this to show that a button was clicked.
 
+$("h2").on("mouseover", function(){
+	$(this).css("color", "steelblue")
+})
+
+$("button").on("mouseenter", function(){
+  $(this).css("background", "steelblue");
+  $(this).css("font-weight", "bold")
+})
+
+
