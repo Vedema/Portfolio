@@ -1,3 +1,4 @@
+
 $("button").on("click", function() {
   alert("Thank you for linking this!");
 }); 
@@ -12,9 +13,19 @@ $("h2").on("mouseover", function(){
 	$(this).css("color", "steelblue")
 })
 
+
 $("button").on("mouseenter", function(){
   $(this).css("background", "steelblue");
   $(this).css("font-weight", "bold")
+})
+
+$("button").on("mouseleave", function(){
+  $(this).css("background", "pink");
+  $(this).css("font-weight", "normal")
+})
+
+$("body").on("mouseenter", function(){
+   $("article").slideDown(500);
 })
 
 

@@ -31,7 +31,9 @@
 			padding: 10px;
 			margin: 0 auto;
 			/* max-width give responsive attibute */
+		    display: none;
 		}
+
 		button{
         font-size: 15px;
         margin-left: 45%;
