@@ -115,6 +115,7 @@ background-color: #5dcad1;
   transform: scale(1.2) rotate(360deg);
   border-radius: 50%;
 }
+
 #marquee{
 color:#13292a;
 font-size: 20px;
@@ -164,3 +165,8 @@ font-size: 20px;
 	 background: black;
 	 color: pink;
 	}
+
+.back2top{
+    color: #13292a;
+    float: right;
+}
