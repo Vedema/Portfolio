@@ -50,9 +50,12 @@ card[i].addEventListener("mouseover", function(){
 
 function validateForm(){
     let nameInput = document.contact.name.value; // Can also select the name input by using document.forms["contact"]["name"].value;
+    
     let emailInput = document.forms["contact"]["email"].value;
+    
     let textareaInput = document.forms["contact"]["textarea"].value;
-    if (nameInput == '') {
+    
+    if (nameInput == ''){
     alert('Please fill in the form');
 	return false;
 }   
