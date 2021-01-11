@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Commerace Template</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://bootswatch.com/3/cosmo/bootstrap.min.css" type="text/css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="vendor/style.css" type="text/css">
+
+    <!-- @media queries -->
+    <link rel="stylesheet" href="vendor/media.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h1 class="logo"><i class="glyphicon glyphicon-tag"></i>
+                        My<span>Store</span></h1>
+                    <p class="sub-text">Bootstrap ECommerce Template</p>
+                </div>
+
+                <div class="col-md-8 col-sm-12">
+                    <div class="well">
+                        <form class="form-inline" action="">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Email Id">
+                            </div>
+                            <div class="form-group">
+                                <label for="pass">Password</label>
+                                <input type="password" class="form-control" name="pass" placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Login" class="btn btn-warning">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header><!-- header section ends -->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Whats New</a>
+                        </li>
+                        <li>
+                            <a href="#">Specials</a>
+                        </li>
+                        <li>
+                            <a href="#">My Account</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <form action="" class="navbar-form">
+                            <div class="input-group">
+                                <input type="search" name="search" class="form-control" placeholder="Search Here..">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-warning"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- ending of navigation -->
+
+        <section>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="vendor/images/product1.jpg" alt="img-1" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>Apple I-Pad 4</h2>
+                                <div class="price">&#163; 399.99</div>
+                                <hr>
+                                <p>Quantity: 
+                                    <div class="form-group">
+                                        <select name="" id="" class="form-control">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                                <br><br><br>
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a href="#collapse1" data-parent="#accordion" data-toggle="collapse">Description</a>
+                                            </h4>
+                                        </div>
+                                            <div id="collapse1" class="panel-collapse collapse in">
+                                                <div class="panel-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum ornare erat, id facilisis nibh blandit in.
+                                                    Curabitur gravida porttitor orci, eu interdum justo rhoncus sit amet.
+                                                </div>
+                                             </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a href="#collapse2" data-parent="#accordion" data-toggle="collapse">Specifications</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum ornare erat, id facilisis nibh
+                                                blandit in.
+                                                Curabitur gravida porttitor orci, eu interdum justo rhoncus sit amet.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a href="#collapse3" data-parent="#accordion" data-toggle="collapse">Related</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum ornare erat, id facilisis nibh
+                                                blandit in.
+                                                Curabitur gravida porttitor orci, eu interdum justo rhoncus sit amet.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Category 1</a>
+                            <a href="#" class="list-group-item">Category 2</a>
+                            <a href="#" class="list-group-item">Category 3</a>
+                            <a href="#" class="list-group-item">Category 4</a>
+                            <a href="#" class="list-group-item">Category 5</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <footer>
+        <p>MyStore Copyright &copy; 2018 <a href="#">Terms</a> &middot; <a href="#">Privacy</a></p>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

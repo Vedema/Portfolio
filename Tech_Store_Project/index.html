@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>E-Commerace Template</title>
+
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/3/cosmo/bootstrap.min.css"
+      type="text/css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="vendor/style.css" type="text/css" />
+
+    <!-- @media queries -->
+    <link rel="stylesheet" href="vendor/media.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1 class="logo">
+              <i class="glyphicon glyphicon-tag"></i> My<span>Store</span>
+            </h1>
+            <p class="sub-text">Bootstrap ECommerce Template</p>
+          </div>
+
+          <div class="col-md-8 col-sm-12">
+            <div class="well">
+              <form class="form-inline" action="">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Email Id"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="pass">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    name="pass"
+                    placeholder="Password"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input type="submit" value="Login" class="btn btn-warning" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header section ends -->
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Whats New</a>
+              </li>
+              <li>
+                <a href="#">Specials</a>
+              </li>
+              <li>
+                <a href="#">My Account</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <form action="" class="navbar-form">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    name="search"
+                    class="form-control"
+                    placeholder="Search Here.."
+                  />
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-warning">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ending of navigation -->
+
+      <div class="jumbotron">
+        <!-- nav tabs -->
+        <ul class="tablist" role="tablist">
+          <li class="active" role="presentation">
+            <a href="#feature" aria-controls="home" role="tab" data-toggle="tab"
+              >Featured Item</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#bestseller"
+              aria-controls="feature"
+              role="tab"
+              data-toggle="tab"
+              >Best Seller</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#summerdiscount"
+              aria-controls="summerdiscount"
+              role="tab"
+              data-toggle="tab"
+              >Summer Discount</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#premium"
+              aria-controls="premium"
+              role="tab"
+              data-toggle="tab"
+              >Premium Product</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#gift" aria-controls="gift" role="tab" data-toggle="tab"
+              >Gift Idea</a
+            >
+          </li>
+        </ul>
+        <!-- tab panels -->
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="feature" role="tabpanel">
+            <div class="tab-text">
+              <h2>Apple I Pad-4</h2>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                semper purus id risus consectetur aliquet. Sed metus massa,
+                interdum nec sapien nec, sollicitudin ultrices felis.
+              </p>
+              <a href="product.html" class="btn btn-default">Read More..</a>
+            </div>
+            <img src="vendor/images/iphone_half.jpg" class="slide-img" alt="" />
+          </div>
+
+          <div class="tab-pane fade" role="tabpanel" id="bestseller">
+            <div class="tab-text">
+              <h2>X-box One</h2>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                semper purus id risus consectetur aliquet. Sed metus massa,
+                interdum nec sapien nec, sollicitudin ultrices felis.
+              </p>
+              <a href="product.html" class="btn btn-default">Read More..</a>
+            </div>
+            <img src="vendor/images/x-boxone.png" class="slide-img" alt="" />
+          </div>
+
+          <div class="tab-pane fade" role="tabpanel" id="summerdiscount">
+            <div class="tab-text">
+              <h2>Play Station</h2>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                semper purus id risus consectetur aliquet. Sed metus massa,
+                interdum nec sapien nec, sollicitudin ultrices felis.
+              </p>
+              <a href="product.html" class="btn btn-default">Read More..</a>
+            </div>
+            <img
+              src="vendor/images/playstation-4.png"
+              class="slide-img"
+              alt=""
+            />
+          </div>
+
+          <div class="tab-pane fade" role="tabpanel" id="premium">
+            <div class="tab-text">
+              <h2>Microsoft Surface</h2>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                semper purus id risus consectetur aliquet. Sed metus massa,
+                interdum nec sapien nec, sollicitudin ultrices felis.
+              </p>
+              <a href="product.html" class="btn btn-default">Read More..</a>
+            </div>
+            <img src="vendor/images/mssurface.png" class="slide-img" alt="" />
+          </div>
+
+          <div class="tab-pane fade" role="tabpanel" id="gift">
+            <div class="tab-text">
+              <h2>Vizio Smart TV</h2>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                semper purus id risus consectetur aliquet. Sed metus massa,
+                interdum nec sapien nec, sollicitudin ultrices felis.
+              </p>
+              <a href="product.html" class="btn btn-default">Read More..</a>
+            </div>
+            <img src="vendor/images/vizsmarttv.png" class="slide-img" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <section id="products">
+        <!-- product section begin -->
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product1.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 399.99
+                </h4>
+                <h4><a href="product.html">Apple IPad 4</a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">15 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product2.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 499.99
+                </h4>
+                <h4><a href="product.html">HP 15-bs675tx 15.6'</a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">25 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product3.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 450
+                </h4>
+                <h4><a href="product.html">Sony 80cm(32') Monitor</a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">38 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product2.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 500
+                </h4>
+                <h4><a href="product.html">HP 15-bs675tx 15.6' </a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">26 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product3.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 500
+                </h4>
+                <h4><a href="product.html">Sony 80cm(32') Monitor</a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">38 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <div class="thumbnail">
+              <img
+                src="vendor/images/product1.jpg"
+                alt="image-1"
+                class="img-responsive"
+              />
+              <div class="caption">
+                <h4 class="pull-right">
+                  &#163; 399.99
+                </h4>
+                <h4><a href="product.html">Apple IPad 4</a></h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer accumsan risus vel blandit consectetur. Interdum et
+                  malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <div class="ratings">
+                  <p class="pull-right">15 Reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+        MyStore Copyright &copy; 2020 <a href="#">Terms</a> &middot;
+        <a href="#">Privacy</a>
+      </p>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

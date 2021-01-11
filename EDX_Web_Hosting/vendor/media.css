@@ -1,0 +1,34 @@
+@media(max-width:768px) {
+    #myCarousel {
+        margin-top: 200px;
+    }
+
+    .carousel {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption {
+        z-index: 10;
+        text-align: left;
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width:769px) and (max-width:1028px) {
+    #myCarousel {
+        margin-top:39px;
+    }
+    .carousel {
+        min-height: 500px;
+        margin-bottom: 60px;
+    }
+
+    .carousel-caption {
+        z-index: 10;
+        text-align: left;
+        font-size: 20px;
+    }
+
+}

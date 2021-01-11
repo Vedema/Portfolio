@@ -1,0 +1,49 @@
+@media(max-width:360px) {
+    .tab-content {
+        height: 338px;
+        margin: 0;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:680px) {
+    header .well {
+        padding:12px;
+        margin: 0;
+        float:none;
+    }
+
+    .tab-content {
+        float: right;
+        height: 350px;
+    }
+
+    .slide-img {
+        width: 30%;
+        float: right;
+    }
+}
+
+@media(max-width:768px) {
+    header .well {
+        padding: 12px;
+        margin: 0;
+        float:none;
+    }
+
+    .slide-img {
+        display: none;
+    }
+
+    .tab-text {
+        float: none;
+        width:80%;
+    }
+}
+
+@media(max-width:960px){
+    header .well {
+        width: 100% !important;
+    }
+}
+

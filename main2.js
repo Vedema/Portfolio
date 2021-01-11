@@ -46,7 +46,7 @@ card[i].addEventListener("mouseover", function(){
 //     }
 
 
-//CONTINUE TO WITH THE CODE BELOW TO ENSURE THAT THE FORM IS FIELD WITHOUT SUBMITTING.
+//CONTINUE WITH THE CODE BELOW TO ENSURE THAT THE FORM IS FIELD WITHOUT SUBMITTING.
 
 function validateForm(){
     let nameInput = document.contact.name.value; // Can also select the name input by using document.forms["contact"]["name"].value;

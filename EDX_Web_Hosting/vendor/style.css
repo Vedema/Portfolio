@@ -1,0 +1,39 @@
+section {
+    margin-bottom: 60px;
+}
+
+#myCarousel {
+    margin-top: 39px;
+}
+
+.carousel {
+    min-height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    text-align: left;
+    font-size: 20px;
+}
+
+.feature-list li {
+    list-style: none;
+    text-align: left;
+}
+
+.img-carousel {
+    width:200%;
+}
+
+.marketing {
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.domain-home > .jumbotron {
+    background:rgba(233, 98, 8, 0.972) !important ;
+}

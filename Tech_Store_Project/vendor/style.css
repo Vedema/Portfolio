@@ -1,0 +1,111 @@
+.nav li a{
+    color:#0383c0;
+}
+
+.logo {
+    color: #0383c0;
+    font-weight: bold;
+}
+
+.logo > span {
+    color: #1c1c1c;
+}
+
+.sub-text {
+    color: #1c1c1c;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0 0 45px;
+}
+
+header .well {
+    float: right;
+    margin-top: 20px;
+    background: #2780E3;
+    padding: 12px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* product grid */
+#products img {
+    height: 150px;
+    width: 150px;
+}
+
+#products .thumbnail {
+    padding: 20px;
+}
+
+.jumbotron {
+    background:#fff;
+    overflow:auto;
+    padding: 0 !important;
+}
+
+.tablist {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width:30%;
+}
+
+.tablist li {
+    background-color: #ccc;
+    list-style: none;
+    color: #666;
+    padding: 15px 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    width:100%;
+    font-size: 15px;
+}
+
+.tablist li.active {
+    background: #2780E3;
+    color: #fff;
+}
+
+.tablist li.active a{
+    color: #fff;
+}
+
+.tablist a {
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+
+
+.tab-content {
+    float: right;
+    width: 70%;
+    background-color: #2780E3;
+    color: #fff;
+    overflow: hidden;
+    height: 275px;
+    padding-top: 20px;
+}
+
+.slide-img {
+    float: right;
+    width:50%;
+}
+
+.tab-text {
+    float: left;
+    width:40%;
+    margin-left: 40px;
+}
+
+.tab-text p{
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    height: 60px;
+    background: #f3f3f3;
+    padding-top: 20px;
+    margin-top: 50px;
+}
